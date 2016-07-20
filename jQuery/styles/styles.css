@@ -1,0 +1,32 @@
+.shape {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  margin: 20px;
+}
+#triangle {
+  display: none;
+  width: 0; 
+  height: 0; 
+  border-left: 140px solid transparent;
+  border-right: 140px solid transparent; 
+  border-bottom: 140px solid blue;
+}
+
+#square {
+  display: none;
+  background-color: green;
+}
+
+#circle {
+  display: none;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+#rounded-rectangle {
+  display: none;
+  width: 250px;
+  background-color: red;
+  border-radius: 30px;
+}

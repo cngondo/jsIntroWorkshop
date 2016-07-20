@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+code {
+  background-color: rgb(237, 237, 237);
+  padding: 2px 4px;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  border: thin groove;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: .9em;
+}
+
+.menu {
+  position: absolute;
+  height: 70px;
+  width: 100%;
+  top: 0;
+  background-color: #007BBA;
+  color: white;
+}
+
+.logo {
+  position: absolute;
+  height: 35px;
+  right: 70px;
+  top: 20px;
+}
+
+.home {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px groove white;
+  top: 25px;
+  padding: 4px;
+  position: absolute;
+  left: 70px;
+  text-decoration: none;
+  color: white;
+}
+
+.home:hover {
+  background-color: white;
+  color: #007BBA;
+}
+
+.codeblock {
+  display: table; 
+  line-height: 25px;
+  background-color: black; 
+  color: white;
+  text-align: left; 
+  margin: 15px 60px 15px;
+}
+
+.intro {
+  margin: 110px 60px 42px;
+  font-size: 1.3em; 
+  padding: 20px; 
+  border: 5px outset rgb(180, 224, 246); 
+  border-radius: 15px;
+  background-color: black; color: white; 
+  line-height: 30px;
+}
+
+.instructions li {
+  text-align: left; 
+  margin: 1px 60px 1px 60px; 
+  font-size: 1.1em;
+  line-height: 42px;
+}
+
+.sub-instructions {
+  list-style: lower-alpha;
+}

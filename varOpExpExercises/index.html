@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Variables, Operators, Expressions</title>
+  <link rel="stylesheet" type="text/css" href="../globalAssets/styles.css">
+  <script type="text/javascript" src="../globalAssets/library.js"></script>
+</head>
+<body>
+  <div class='menu'>
+    <a class='home' href="../index.html">Main Menu</a>
+    <h1>Variables, Operators, Expressions</h2>
+  </div>
+  <p class="intro">Variables, Operators and Expressions are the building blocks of the Javascript language. Let's practice using them.</p>
+  <ol class="instructions">
+    <li>
+      We'll be using <code>console.log()</code> a lot, so why don't we make a reusable shortcut? That's essentially what a <code>function</code> is - and we'll talk more about those later. In the meantime, find <code>library.js</code> in the <code>Global Assets</code> directory and let's define the following function on the first line (and use proper indentation!):
+      <code class="codeblock">
+        var log = function(itemToLog) {<br>&nbsp&nbspconsole.log(itemToLog);<br>};<br>
+      </code>
+      Yes, functions can be assigned as values to variables! Save that file and we should be able to use <code>log()</code> instead of <code>console.log()</code> for the rest of the course. Test it out in your console if you want!
+    </li>
+    <li>
+      Let's start using some variables and practice some string concatenation. Open <code>index.js</code> and on the first line define a variable <code>myName</code> and assign it to a <code>string</code> of your name. On the next line, define a variable <code>myLocation</code> and assign it to a <code>string</code> of your current location. Last, use those variables to complete the function invocation here: 
+      <code class="codeblock">
+        log(____ + 'is learning Javascript in/at' + ______);
+      </code> 
+      Save that code in <code>index.js</code>, refresh index.html, and see what comes out on the console.
+    </li>  
+    <li>
+      The name and location are squashed against 'is' and 'at'! How can we fix that?
+    </li>    
+    <li>
+      Under that, let's start using a little math. Set a variable <code>matatuWidth</code> equal to 2.4 (meters). Set a variable <code>roadWidth</code> equal to 13 (meters). Set a variable <code>maxMatatus</code> equal to <code>roadWidth</code> divided by <code>matatuWidth</code>. Then use our <code>log()</code> function to log out the maximum number of Matatus that can possibly try to overtake each other simultaneously. If you want to get rid of any decimal places, you can put your division expression inside of the <code>Math.round()</code> method. <code>Math</code>is a global Javascript object that holds many useful methods.
+    </li>     
+  </ol>
+  <script type="text/javascript">
+  // Your Code Here!
+  </script>
+</body>
+</html>
